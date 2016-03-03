@@ -4,12 +4,12 @@
   C: 100,
   L: 50,
   X: 10,
-  v: 5,
+  V: 5,
   I: 1
 }
 
 def to_roman(num)
-  numeral = " "
+  numeral = ""
 
   @roman.each do |key, value|
       times = num / value
